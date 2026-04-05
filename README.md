@@ -4,7 +4,7 @@ A minimal, clean personal website showcasing my work as a full-stack developer.
 
 ## 🚀 Live Site
 
-Visit [mhm13.dev](https://mhm13.dev)
+Visit [mubshr.sh](https://mubshr.sh)
 
 ## 🛠 Tech Stack
 
@@ -17,7 +17,7 @@ Visit [mhm13.dev](https://mhm13.dev)
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/mhm13dev/mhm13.dev.git
+   git clone https://github.com/mubshrx/mhm13.dev.git
    cd mhm13.dev
    ```
 

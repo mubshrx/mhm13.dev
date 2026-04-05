@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 
-const domain = "mhm13.dev";
+const domain = "mubshr.sh";
 const websiteUrl = `https://${domain}`;
 const imageSrc = `${websiteUrl}/images/profile.jpg`;
 const defaultTitle = "Mubashir Hassan - Full Stack Developer";
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   description: defaultDescription,
   keywords: [
     "Mubashir Hassan",
+    "mubshrx",
     "mhm13dev",
     "Full Stack Developer",
     "TypeScript",
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: defaultTitle,
     description: defaultDescription,
-    creator: "@mhm13dev",
+    creator: "@mubshrx",
     images: [
       {
         url: imageSrc,
@@ -149,8 +150,8 @@ export const viewport: Viewport = {
 };
 
 export const links = {
-  github: "https://github.com/mhm13dev",
-  linkedin: "https://linkedin.com/in/mhm13dev",
-  x: "https://x.com/mhm13dev",
-  email: "mhm13dev@gmail.com",
+  github: "https://github.com/mubshrx",
+  linkedin: "https://linkedin.com/in/mubshrx",
+  x: "https://x.com/mubshrx",
+  email: "hi.mubshr@gmail.com",
 };
