@@ -1,1 +1,2 @@
 This file was created to test branch protection rules on GitHub.
+Second commit to verify push restrictions and required checks.
