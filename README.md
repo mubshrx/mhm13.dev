@@ -8,7 +8,7 @@ Visit [mubshr.sh](https://mubshr.sh)
 
 ## 🛠 Tech Stack
 
-- **Framework**: [Next.js 15](https://nextjs.org) with React 19
+- **Framework**: [Next.js 16](https://nextjs.org) with React 19
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 
