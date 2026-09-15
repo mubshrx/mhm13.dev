@@ -1,5 +1,5 @@
 {
-  "name": "mhm13.dev",
+  "name": "mubshr.sh",
   "user": "ubuntu",
   "build": {
     "dockerfile": "cloud-agents/Dockerfile",
@@ -9,7 +9,7 @@
   "terminals": [
     {
       "name": "web",
-      "command": ". .cursor/cloud-agents/pnpm-path.sh && pnpm dev --hostname 0.0.0.0 --port 3000",
+      "command": ". .cursor/cloud-agents/pnpm-path.sh && pnpm dev --port 3000",
       "description": "Next.js development server"
     }
   ],
