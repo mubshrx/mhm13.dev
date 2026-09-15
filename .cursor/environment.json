@@ -1,0 +1,19 @@
+{
+  "name": "mubshr.sh",
+  "user": "ubuntu",
+  "build": {
+    "dockerfile": "cloud-agents/Dockerfile",
+    "context": ".."
+  },
+  "install": ".cursor/cloud-agents/install.sh",
+  "terminals": [
+    {
+      "name": "web",
+      "command": ". .cursor/cloud-agents/pnpm-path.sh && pnpm dev --port 3000",
+      "description": "Next.js development server"
+    }
+  ],
+  "ports": [
+    { "name": "web", "port": 3000 }
+  ]
+}
