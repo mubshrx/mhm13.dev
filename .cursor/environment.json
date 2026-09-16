@@ -6,14 +6,11 @@
     "context": ".."
   },
   "install": ".cursor/cloud-agents/install.sh",
-  // Cloud Agents may not auto-start `terminals` until this is fixed:
-  // https://forum.cursor.com/t/cloud-agent-does-not-auto-start-terminals-from-repo-managed-environment-json-builds-enabled/168876
-  // If the `web` terminal is missing, start the command below manually (see AGENTS.md).
   "terminals": [
     {
       "name": "web",
       "command": ". .cursor/cloud-agents/pnpm-path.sh && pnpm dev --port 3000",
-      "description": "Next.js development server. If this terminal did not auto-start, run the same command manually (see AGENTS.md)."
+      "description": "Next.js development server"
     }
   ],
   "ports": [
