@@ -15,19 +15,19 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 https://forum.cursor.com/t/cloud-agent-does-not-auto-start-terminals-from-repo-managed-environment-json-builds-enabled/168876
 
-Until that is fixed, start the app via tmux the same way `terminals` would.
+Until that is fixed, start the app via tmux. (The `environment.json` `terminals` command sources `.cursor/cloud-agents/pnpm-path.sh`; do not do that in this tmux workaround.)
 
 1. Check first: `tmux ls`, an existing `web` session, or something listening on port 3000. If the server is already up, reuse it.
-2. If it is missing, create or attach a tmux session named `web` and run the terminal command **inside** that session:
+2. If it is missing, create or attach a tmux session named `web` and run `pnpm dev --port 3000` **inside** that session:
 
 ```bash
 tmux has-session -t web 2>/dev/null || tmux new-session -d -s web -c "$PWD"
-tmux send-keys -t web '. .cursor/cloud-agents/pnpm-path.sh && pnpm dev --port 3000' C-m
+tmux send-keys -t web 'pnpm dev --port 3000' C-m
 ```
 
 To attach interactively instead:
 
 ```bash
 tmux new-session -As web
-. .cursor/cloud-agents/pnpm-path.sh && pnpm dev --port 3000
+pnpm dev --port 3000
 ```
