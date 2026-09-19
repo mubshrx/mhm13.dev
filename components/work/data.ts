@@ -5,6 +5,7 @@ export interface WorkExperience {
   location: string;
   duration: string;
   description: string[];
+  companyUrl?: string;
 }
 
 export const workExperiences: WorkExperience[] = [
@@ -12,6 +13,7 @@ export const workExperiences: WorkExperience[] = [
     id: "product-engineer-crediblex",
     title: "Product Engineer",
     company: "CredibleX",
+    companyUrl: "https://crediblex.io",
     location: "Remote, Dubai",
     duration: "November 2025 — Present",
     description: [
@@ -24,6 +26,7 @@ export const workExperiences: WorkExperience[] = [
     id: "tech-lead-kwanso",
     title: "Tech Lead",
     company: "Kwanso",
+    companyUrl: "https://kwanso.com",
     location: "Lahore, Pakistan",
     duration: "May 2025 — November 2025",
     description: [
@@ -38,6 +41,7 @@ export const workExperiences: WorkExperience[] = [
     id: "senior-dev-kwanso",
     title: "Senior Software Developer",
     company: "Kwanso",
+    companyUrl: "https://kwanso.com",
     location: "Lahore, Pakistan",
     duration: "April 2024 — May 2025",
     description: [
