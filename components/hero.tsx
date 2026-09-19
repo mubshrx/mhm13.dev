@@ -7,22 +7,31 @@ export default function Hero() {
         Hey, I&apos;m Mubashir Hassan 👋
       </h1>
       <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed mb-6">
-        I&apos;m a tech lead and full stack developer, currently building great
-        software at{" "}
+        I&apos;m a software engineer, currently building{" "}
         <Link
-          href="https://kwanso.com"
+          href="https://paabo.com"
           variant="brand"
           external
           target="_blank"
         >
-          Kwanso
+          Paabo
         </Link>{" "}
-        in Lahore, Pakistan.
+        as a product engineer at{" "}
+        <Link
+          href="https://crediblex.io"
+          variant="brand"
+          external
+          target="_blank"
+        >
+          CredibleX
+        </Link>, a UAE-based fintech. Based in Mansehra, a small, beautiful
+        city in northern Pakistan.
       </p>
       <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
-        I work primarily in the JavaScript/TypeScript ecosystem using React.js,
-        Next.js, Node.js, and other modern technologies to create digital
-        experiences — one commit at a time 💥
+        Working primarily in the TypeScript/JavaScript ecosystem using Node.js
+        and React.js &ndash; plus a small crew of AI agents that help me take
+        on more ambitious challenges. I steer, they implement. Together we
+        create digital experiences 🤖
       </p>
     </section>
   );

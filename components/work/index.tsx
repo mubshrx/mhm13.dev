@@ -1,4 +1,5 @@
 import { workExperiences, type WorkExperience } from "@/components/work/data";
+import { Link } from "@/components/ui/link";
 
 interface WorkItemProps {
   experience: WorkExperience;
@@ -16,7 +17,19 @@ function WorkItem({ experience }: WorkItemProps) {
         </span>
       </div>
       <div className="text-neutral-600 dark:text-neutral-400 mb-2">
-        {experience.company} • {experience.location}
+        {experience.companyUrl ? (
+          <Link
+            href={experience.companyUrl}
+            variant="brand"
+            external
+            target="_blank"
+          >
+            {experience.company}
+          </Link>
+        ) : (
+          experience.company
+        )}{" "}
+        • {experience.location}
       </div>
       <ul className="text-neutral-600 dark:text-neutral-400 leading-relaxed space-y-1">
         {experience.description.map((item, index) => (
