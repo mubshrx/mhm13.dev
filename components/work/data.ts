@@ -9,17 +9,29 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
+    id: "product-engineer-crediblex",
+    title: "Product Engineer",
+    company: "CredibleX",
+    location: "Remote, Dubai",
+    duration: "November 2025 — Present",
+    description: [
+      "Building Paabo, CredibleX's AI-powered working capital origination platform that helps lenders finance small businesses faster",
+      "Developing and maintaining internal dashboards and data-driven tools that support finance and operations teams to reduce the time of loan disbursement to SMEs",
+      "Building integration between Loan Origination System and Loan Management System to record loan disbursals and repayments",
+    ],
+  },
+  {
     id: "tech-lead-kwanso",
     title: "Tech Lead",
     company: "Kwanso",
     location: "Lahore, Pakistan",
-    duration: "May 2025 — Present",
+    duration: "May 2025 — November 2025",
     description: [
-      "Leading technical architecture decisions and development teams of 5+ engineers",
-      "Designing scalable backend systems and database optimization strategies",
-      "Mentoring junior and mid-level developers, conducting code reviews",
-      "Driving delivery of robust full-stack applications with focus on server-side performance",
-      "Collaborating with product managers and stakeholders to architect efficient backend solutions",
+      "Led technical architecture decisions and development teams of 5+ engineers",
+      "Designed scalable backend systems and database optimization strategies",
+      "Mentored junior and mid-level developers and conducted code reviews",
+      "Drove delivery of robust full-stack applications with focus on server-side performance",
+      "Collaborated with product managers and stakeholders to architect efficient backend solutions",
     ],
   },
   {
