@@ -1,6 +1,6 @@
 # Mubashir Hassan - Personal Website
 
-A minimal, clean personal website showcasing my work as a full-stack developer.
+A minimal, clean personal website showcasing my work as a software engineer.
 
 ## 🚀 Live Site
 
