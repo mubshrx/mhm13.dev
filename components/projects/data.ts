@@ -3,12 +3,26 @@ export interface Project {
   title: string;
   description: string;
   details: string[];
+  url?: string;
 }
 
 export const projects: Project[] = [
   {
+    id: "paabo",
+    title: "Paabo",
+    url: "https://paabo.com",
+    description:
+      "An AI-powered working capital origination platform that helps brokers and lenders finance small businesses faster.",
+    details: [
+      "Building broker, lender, and admin portals for originating and reviewing financing cases",
+      "Designing the case workflow from broker submit through ops review to lender execution",
+      "Implementing organization onboarding, document checklists, and commission payouts",
+    ],
+  },
+  {
     id: "chexpass",
     title: "Chexpass",
+    url: "https://www.bib.com/chexpass",
     description:
       "An enterprise-grade visitor management system that enables secure check-ins, real-time tracking, instant sex offender and security watchlist checks, and multi-channel alerts.",
     details: [
@@ -20,6 +34,7 @@ export const projects: Project[] = [
   {
     id: "chex365",
     title: "Chex365",
+    url: "https://www.bib.com/chex365",
     description:
       "A continuous criminal monitoring platform that tracks post-hire offenses and delivers timely alerts for incidents such as arrests, charges, or convictions across various jurisdictions.",
     details: [

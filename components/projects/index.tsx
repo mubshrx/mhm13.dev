@@ -1,4 +1,5 @@
 import { projects, type Project } from "@/components/projects/data";
+import { Link } from "@/components/ui/link";
 
 interface ProjectItemProps {
   project: Project;
@@ -8,9 +9,21 @@ function ProjectItem({ project }: ProjectItemProps) {
   return (
     <div className="flex flex-col">
       <div className="mb-2">
-        <span className="text-neutral-900 dark:text-neutral-100 font-medium">
-          {project.title}
-        </span>
+        {project.url ? (
+          <Link
+            href={project.url}
+            variant="brand"
+            external
+            target="_blank"
+            className="font-medium"
+          >
+            {project.title}
+          </Link>
+        ) : (
+          <span className="text-neutral-900 dark:text-neutral-100 font-medium">
+            {project.title}
+          </span>
+        )}
       </div>
       <div className="text-neutral-600 dark:text-neutral-400 mb-2 leading-relaxed">
         {project.description}
