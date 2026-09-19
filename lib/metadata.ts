@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from "next";
 const domain = "mubshr.sh";
 const websiteUrl = `https://${domain}`;
 const imageSrc = `${websiteUrl}/images/profile.jpg`;
-const defaultTitle = "Mubashir Hassan - Full Stack Developer";
+const defaultTitle = "Mubashir Hassan - Software Engineer";
 const defaultDescription =
   "Working primarily in the TypeScript/JavaScript ecosystem using Node.js and React.js – plus a small crew of AI agents that help me take on more ambitious challenges. I steer, they implement. Together we create digital experiences 🤖";
 
@@ -17,6 +17,10 @@ export const metadata: Metadata = {
     "Mubashir Hassan",
     "mubshrx",
     "mhm13dev",
+    "Software Engineer",
+    "Product Engineer",
+    "AI Agents",
+    "Agentic Development",
     "Full Stack Developer",
     "TypeScript",
     "JavaScript",
@@ -28,11 +32,11 @@ export const metadata: Metadata = {
     "PHP",
     "Laravel",
     "Pakistan",
+    "Mansehra",
     "Lahore",
-    "Software Developer",
-    "Web Developer",
-    "Tech Lead",
+    "CredibleX",
     "Kwanso",
+    "Tech Lead",
   ],
   authors: [{ name: "Mubashir Hassan" }],
   creator: "Mubashir Hassan",
