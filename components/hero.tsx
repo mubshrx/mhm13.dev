@@ -7,8 +7,16 @@ export default function Hero() {
         Hey, I&apos;m Mubashir Hassan 👋
       </h1>
       <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed mb-6">
-        I&apos;m a software engineer, currently working as a product engineer
-        at{" "}
+        I&apos;m a software engineer, currently building{" "}
+        <Link
+          href="https://paabo.com"
+          variant="brand"
+          external
+          target="_blank"
+        >
+          Paabo
+        </Link>{" "}
+        as a product engineer at{" "}
         <Link
           href="https://crediblex.io"
           variant="brand"
