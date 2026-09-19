@@ -48,7 +48,3 @@ This is a personal website, but feel free to:
 ## 📄 License
 
 © 2025 Mubashir Hassan. All rights reserved.
-
----
-
-**One commit at a time** 💥

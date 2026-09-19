@@ -5,7 +5,7 @@ const websiteUrl = `https://${domain}`;
 const imageSrc = `${websiteUrl}/images/profile.jpg`;
 const defaultTitle = "Mubashir Hassan - Full Stack Developer";
 const defaultDescription =
-  "I work primarily in the JavaScript/TypeScript ecosystem using React.js, Next.js, Node.js, and other modern technologies to create digital experiences — one commit at a time 💥";
+  "Working primarily in the TypeScript/JavaScript ecosystem using Node.js and React.js – plus a small crew of AI agents that help me take on more ambitious challenges. I steer, they implement. Together we create digital experiences 🤖";
 
 export const metadata: Metadata = {
   title: {
