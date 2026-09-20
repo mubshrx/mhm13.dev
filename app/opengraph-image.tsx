@@ -71,7 +71,7 @@ export default function Image() {
                 letterSpacing: "-0.02em",
               }}
             >
-              Product Engineer @ CredibleX
+              Software Engineer @ CredibleX
             </div>
           </div>
           <div

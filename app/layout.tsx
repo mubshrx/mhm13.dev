@@ -22,7 +22,6 @@ export const metadata: Metadata = {
     handle,
     "mhm13dev",
     "Software Engineer",
-    "Product Engineer",
     "AI Agents",
     "Agentic Development",
     "Full Stack Developer",

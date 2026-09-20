@@ -10,14 +10,14 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
-    id: "product-engineer-crediblex",
-    title: "Product Engineer",
+    id: "software-engineer-crediblex",
+    title: "Software Engineer",
     company: "CredibleX",
     companyUrl: "https://crediblex.io",
     location: "Remote, Dubai",
     duration: "November 2025 — Present",
     description: [
-      "Building Paabo, CredibleX's AI-powered working capital origination platform that helps lenders finance small businesses faster",
+      "Building Paabo, CredibleX's AI-powered working capital origination platform that helps brokers and lenders finance small businesses faster",
       "Developing and maintaining internal dashboards and data-driven tools that support finance and operations teams to reduce the time of loan disbursement to SMEs",
       "Building integration between Loan Origination System and Loan Management System to record loan disbursals and repayments",
     ],

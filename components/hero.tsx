@@ -16,7 +16,7 @@ export default function Hero() {
         >
           Paabo
         </Link>{" "}
-        as a product engineer at{" "}
+        at{" "}
         <Link
           href="https://crediblex.io"
           variant="brand"
