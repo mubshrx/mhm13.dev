@@ -1,4 +1,4 @@
-import { links } from "@/lib/metadata";
+import { links } from "@/lib/identity";
 import { Link } from "@/components/ui/link";
 
 export default function Connect() {
